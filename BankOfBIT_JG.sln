@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankOfBIT_JG", "BankOfBIT_JG\BankOfBIT_JG.csproj", "{2B82F2D6-00D2-4C7F-84E7-D8853945903E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{27A7B6BB-7038-4ACA-A99A-88A1261AE0AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineBanking", "OnlineBanking\OnlineBanking.csproj", "{35235CBC-FD41-47F6-AD52-4A85CF6A6BC9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F7AFA118-B7CA-46EF-AC3E-1B2868BFDDFA} = {F7AFA118-B7CA-46EF-AC3E-1B2868BFDDFA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankService", "BankService\BankService.csproj", "{F7AFA118-B7CA-46EF-AC3E-1B2868BFDDFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsApplication", "WindowsApplication\WindowsApplication.csproj", "{E9A6F7C7-FB71-4907-9671-AD6FD3E2C473}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F7AFA118-B7CA-46EF-AC3E-1B2868BFDDFA} = {F7AFA118-B7CA-46EF-AC3E-1B2868BFDDFA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaskedLabel", "MaskedLabel\MaskedLabel.csproj", "{049F1B57-22DE-42E2-A648-B64B82BF6DF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B82F2D6-00D2-4C7F-84E7-D8853945903E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B82F2D6-00D2-4C7F-84E7-D8853945903E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B82F2D6-00D2-4C7F-84E7-D8853945903E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B82F2D6-00D2-4C7F-84E7-D8853945903E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27A7B6BB-7038-4ACA-A99A-88A1261AE0AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27A7B6BB-7038-4ACA-A99A-88A1261AE0AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27A7B6BB-7038-4ACA-A99A-88A1261AE0AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27A7B6BB-7038-4ACA-A99A-88A1261AE0AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35235CBC-FD41-47F6-AD52-4A85CF6A6BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35235CBC-FD41-47F6-AD52-4A85CF6A6BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35235CBC-FD41-47F6-AD52-4A85CF6A6BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35235CBC-FD41-47F6-AD52-4A85CF6A6BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7AFA118-B7CA-46EF-AC3E-1B2868BFDDFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7AFA118-B7CA-46EF-AC3E-1B2868BFDDFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7AFA118-B7CA-46EF-AC3E-1B2868BFDDFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7AFA118-B7CA-46EF-AC3E-1B2868BFDDFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9A6F7C7-FB71-4907-9671-AD6FD3E2C473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9A6F7C7-FB71-4907-9671-AD6FD3E2C473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9A6F7C7-FB71-4907-9671-AD6FD3E2C473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9A6F7C7-FB71-4907-9671-AD6FD3E2C473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{049F1B57-22DE-42E2-A648-B64B82BF6DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{049F1B57-22DE-42E2-A648-B64B82BF6DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{049F1B57-22DE-42E2-A648-B64B82BF6DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{049F1B57-22DE-42E2-A648-B64B82BF6DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A03D644-EBD4-4754-B27C-391A7E1918B6}
+	EndGlobalSection
+EndGlobal
